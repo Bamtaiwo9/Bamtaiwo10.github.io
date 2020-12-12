@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./jQuery.js"></script>
+    <title>Vigourich</title>
+
+</head>
+<body>
+    <!--<header class="wrapper">
+      <nav>
+      <ul class="itemwrapper">
+        <li class="items logo abs"><img src="./Assets/Assets/Logo.png" alt="" width="120"></li>
+      <li id="item2" class="items wrap jqs tems1 tems abs"><a class="abs1" href="index.html">Home</a></li>
+      <li id="item3" class="items wrap jqs tems1 tems abs"><a class="abs1" href="#about">About Us</a></li>
+      <li id="item4" class="items wrap jqs tems1 tems abs"><a class="abs1" href="#services">Services</a></li>
+      <li id="item5" class="items wrap jqs tems1 tems b1 team" ><a  href="#team">Our Team</a></li>
+      <li id="item6" class="items wrap jqs tems1 tems b1 contact"><a  href="#contact">Contact Us</a></li>
+      <li id="item7" class="items wrap bmn btnf1"><button class="btns btn1"><a class="si" href="signIn.html">Sign In</a></button></li>
+      <li id="item8" class="items wrap jqs bmn btnf2"><button class="btns btn2"><a class="su" href="#signup">Sign Up</a></button></li>
+      <li class="toggle"><i class="fa fa-bars"></i></li>
+      <li class="jqs"> <button class="search  btnf"><i class="fa fa-search"></i></button></li>
+      </ul>
+      </nav>-->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light  pt-lg-1" id="nav">
+            <a class="navbar-brand pt-4" href="index.html#nav"><img class="w-75 m-auto" src="./landingPage/Assets/Assets/output-onlinepngtools (2).png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-5 mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link mx-3 text-light" href="./index.html#nav">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 text-light" href="./index.html#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 text-sm-primary text-light" href="./index.html#service">Service</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#team" class="nav-link mx-3 text-primary">OurTeam</a>
+                    </li>
+                    <li><a href="./index.html#contact" class="nav-link mx-3 text-primary">Contact Us</a></li>
+                </ul>
+
+                <button class="btn btn-light text-primary mx-lg-4" id="sign-inbtn"><a class="text-decoration-none" href="./index.html">Home</a></button>
+                <button class="btn btn-primary text-light mx-lg-4" id="sign-upbtn"><a class="text-decoration-none text-light" href="./signUp.html">Sign Up</a></button>
+                <button class="btn  my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+
+            </div>
+        </nav>
+  </header>
+   <main> 
+      <div class="imgs">
+        <div>
+           <img class="img1" src="./Assets/Assets/Group 12.png" alt="" width="55%">
+          </div>
+        <div>
+          <img class="img2" src="./Assets/Assets/Union 1.png" alt="" width="20%"> 
+        </div>
+        <div>
+          <img src="./Assets/Assets/3.png" class="img3" alt="" height="11%" width="8%">
+        </div>
+        <div>
+          <img src="./Assets/Assets/3.png" class="img4" alt="" height="11%" width="8%">
+        </div>
+      </div >
+      
+      <div class="formpart mt-4">
+        <br>
+        <br>
+
+      <form class="f1  mt-lg-5" action="">
+        <h1>Welcome Back</h1>
+       <p>Username</p>
+       <input type="text" class="u1" placeholder="devfreak@gmail.com">
+       <p>Password</p>
+       <input type="password" class="p1" placeholder="Enter password"> 
+       <p class="fg1"> <a  href="#" >Forgot?</a></p>
+       <input type="submit" value="Login" class="btn">
+      </form>
+      </div>
+    </main>
+    
+   <script>
+    $(document).ready(function(){
+       $('.toggle').click(function() {
+         $('.jqs').toggleClass("show")
+         $('ul li').toggleClass("hide")
+       })
+    })
+   </script>
+       <script src="./jQuery.js"></script>
+       <script src="./bootstrap.min.js"></script>
+       <script src="./app.js"></script>
+</body>
+</html>

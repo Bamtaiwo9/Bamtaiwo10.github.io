@@ -1,0 +1,33 @@
+.appoint{
+    width: 90%;
+    margin: 0 auto ;
+    border: 1px solid #fa8d18 ;
+    border-radius: 15px;
+    /*box-shadow: 0px 4px 5px 3px #F15723;*/
+    box-shadow: 0px 4px 5px 3px #fa8d18;
+    padding: 20px;
+    color: #fa8d18;
+}
+.regu{
+    margin-right: 2% ;
+    margin-left: 2%;
+}
+.book{
+    margin: 0 auto ;
+    border: 1px solid #fa8d18;
+    background-color: #fa8d18;
+    border-radius: 15px;
+    width: 95%;
+    height: 35px;
+    color: white;
+}
+.Dbook{
+    width: 60%;
+    margin: 0 auto ;
+    color: white;
+}
+.fld{
+    border: none;
+    border-bottom: 1px solid #fa8d18 ; 
+}
+hr{background-color: #fa8d18; }

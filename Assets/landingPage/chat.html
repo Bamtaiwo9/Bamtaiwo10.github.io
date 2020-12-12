@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigoucure</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <!------------------------------Navbar-------------------------------->
+     <!--<header>
+        <nav class="navbar navbar-expand-lg navbar-light  pt-lg-1" id="nav">
+            <a class="navbar-brand pt-4" href="index.html#nav"><img class="w-75 m-auto" src="./Assets/Assets/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-5 mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link mx-3 text-light" href="./index.html#nav">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 text-light" href="./index.html#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 text-sm-primary text-light" href="./index.html#service">Service</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#team" class="nav-link mx-3 text-primary">OurTeam</a>
+                    </li>
+                    <li><a href="./index.html#contact" class="nav-link mx-3 text-primary">Contact Us</a></li>
+                </ul>
+
+                <button class="btn btn-light text-primary mx-lg-4" id="sign-inbtn"><a class="text-decoration-none" href="./signIn.html">Sign In</a></button>
+                <button class="btn btn-primary text-light mx-lg-4" id="sign-upbtn"><a class="text-decoration-none text-light" href="./signUp.html">Sign Up</a></button>
+                <button class="btn  my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+
+            </div>
+        </nav>
+    </header>-->
+    <main class="mt-0">
+        
+        <div class="row">
+        <div class="long col-lg-3 col-sm-1" id="long">
+            <div class="profile text-center">
+                <div class="pics mx-auto">
+
+                </div>
+                <!--<img src="/landingPage/Assets/Assets/big-circle.png" alt="" srcset="">-->
+                <p><button id="btnprofile" type="submit">update profile</button></p>
+                <hr>
+            </div>
+            <div class="doctor text-center" id='doctor'>
+                <P>Doctor</P>
+                <hr>
+            </div>
+            <div class="community text-center" id="comm" onclick="chan()">
+                <p>Community</p>
+                 <hr>
+                </div>
+            <div class="private chat text-center " id="private"> <span class="">Private Chat</span> 
+                <hr>
+            </div>
+            <div class="schedule text-center" id="sche">Schedule
+                <hr>
+            </div>
+            <div class="settings text-center" id="sett">Settings
+                <hr>
+            </div>
+            <div class="settings text-center" id="sett"> 
+                <button class="btn btn-light text-primary mx-lg-4" id="sign-inbtn"><a class="text-decoration-none" href="./index.html">HOME</a></button>
+                <hr>
+            </div>
+            <div class="down">
+                <img src="/landingPage/Assets/Assets/output-onlinepngtools (2).png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="Second col-lg-9 col-sm-5" id="second">
+            <div class="top"></div>
+            <div class="row " id="chatss">
+                <div class="list col-lg-5 ">
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/red-dot.png" alt="" srcset=""></i>
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></i>
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/red-dot.png" alt="" srcset=""></i>
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/red-dot.png" alt="" srcset=""></i>
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></i>
+                    </div>
+                    <div class="l1 mt-lg-2">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                        Victoria Okon
+                        <span>15m</span>
+                        <i><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></i>
+                    </div>
+
+                </div>
+                <div class="Wchat col-lg-7 ">
+                    <div class="topdiv ">
+                        <img src="/landingPage/Assets/Assets/circle.png" alt="">
+                         Victoria Okon
+                    </div>
+                    <div class="con2">
+                    <div class="tbox mx-auto">
+                        <input class="mx-auto" e="text" name="" id="">
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="docs pl-lg-5 pt-lg-5" id="docs">
+                <div class="blocks mx-auto">
+                    <div class="row">
+                        <div class="col-lg-4 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> specialist</div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4  mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> specialist</div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4 mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> consultant
+                                </div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                    
+                    
+                    </div>
+              <div class="row mt-2">
+                        <div class="col-lg-4 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/red-dot.png" alt="" srcset=""></span></h4></div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4 mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> specialist</div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4 mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> consultant
+                                </div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                    
+                    
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col-lg-4 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/red-dot.png" alt="" srcset=""></span></h4></div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4 mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> specialist</div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                        <div class="col-lg-4 mx-2 b1">
+                            <div class="row">
+                                <div class="col-4"><img src="/landingPage/Assets/Assets/circle.png" alt="" srcset=""></div>
+                                <div class="col-8 title"><h4>Dr I. Kelechi <span><img src="/landingPage/Assets/Assets/green dot (1).png" alt="" srcset=""></span></h4> consultant
+                                </div>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere voluptatem distinctio, iusto minima in! .</P>
+                        </div>
+                    
+                    
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </main>
+   
+    <script src="./jQuery.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+
+</html>
