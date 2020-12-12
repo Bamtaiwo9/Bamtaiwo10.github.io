@@ -81,7 +81,7 @@ hr{ width: 85%; background-color: white;}
     margin-right: auto!important;
 }
 .tbox i{
-    background-image: url("/landingPage/Assets/Assets/circle.png");
+    background-image: url("./Assets/Assets/circle.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 30px;
