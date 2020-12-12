@@ -234,6 +234,15 @@ header ul li button:hover{
     background: #0060c7ef;
     transition: 1s ease-out;
 }
+.wel {
+    color: white;
+    font-weight: bolder;
+    font-size:15px ;
+    border-radius: 20px;
+}
+.ba-1{
+    border-radius: 20px;
+}
 @media only screen and (min-width:1024px) and (max-width:1500px){
     header:before{
         content: '';

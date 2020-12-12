@@ -6,6 +6,7 @@ let humburger = document.querySelector('.navbar-toggler')
 let main = document.querySelector('main')
 let upArrow = document.querySelector('.up')
 
+
 navLinks.forEach(navlink => navlink.addEventListener(('click'), () => {
     humburger.click()
 }))
@@ -33,3 +34,4 @@ window.addEventListener('scroll', () => {
     }
 
 })
+

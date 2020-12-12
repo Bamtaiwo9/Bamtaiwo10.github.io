@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="Ap.css">
 </head>
 
 <body>
@@ -22,19 +23,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-5 mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link mx-3 text-light" href="#nav">Home</a>
+                        <a class="nav-link mx-3 text-light" href="./index.html#nav">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 text-light" href="#about">About Us</a>
+                        <a class="nav-link mx-3 text-light" href="./chat.html">About Us</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link mx-3 text-sm-primary text-light" href="#service">Service</a>
+                        <a class="nav-link mx-3 text-sm-primary text-light" href="./index.html#service">Service</a>
                     </li>
                     <li>
-                        <a href="#team" class="nav-link mx-3 text-primary">OurTeam</a>
+                        <a href="./index.html#team" class="nav-link mx-3 text-primary">OurTeam</a>
                     </li>
-                    <li><a href="#contact"  class="nav-link mx-3 text-primary">Contact Us</a></li>
+                    <li><a href="./index.html#contact" class="nav-link mx-3 text-primary">Contact Us</a></li>
                 </ul>
                 <button class="btn btn-light text-primary mx-lg-3" id="sign-inbtn"><a class="text-decoration-none" href="./chat.html">Chat us</a></button>
 
@@ -48,13 +49,12 @@
         <!--------------------------home------------------------------>
         <div class="home row container m-auto pt-5" id="home">
             <div class="col-lg-6 m-auto">
-                <h1 class="title text-light font-weight-bolder intro-head" id="wel">Welcome to <span class="text-primary"></span>Vigourich</span></h1>
-                <p class="lead text-secondary font-weight-normal" id="wel2">Easily make an appointment with a few clicks</p>
-                <div class="ba-1"><a href="./Ap.html" class="btn btn-primary ba p-2 my-4" id="wel3">Book an Appointment</a></div>
+                <h1 class="title text-light font-weight-bolder intro-head">Welcome <span class="text-primary"></span>Damola</span></h1>
+                <p class="lead text-secondary font-weight-normal">Easily make an appointment with few clicks</p>
+                <div class="ba-1"><a href="#" class="btn btn-primary ba p-2 my-4">Book an Appointment</a></div>
             </div>
             <div class="col-lg-6">
-                <!--<img src="./Assets/Assets/9.png" alt="dr" class="ml-lg-5 w-100">-->
-                <img src="./Assets/Assets/pexels-shanice-mckenzie-774910.jpg" alt="dr" class="ml-lg-5 w-100 br-2">
+                <img src="./Assets/Assets/9.png" alt="dr" class="ml-lg-5 w-100">
             </div>
         </div>
         <div class="wave m-auto">
@@ -73,119 +73,93 @@
     <!-----------------------------------main------------------------------------>
     <main>
         <hr id="target" class="t">
+        
+    <div class="appoint ">
+         <div class="row">
+             <div class="col-lg-4 regu">  
+                <h3><span class=""><img src="./Assets/Assets/Icon material-mail-outline.png" alt="" srcset=""><span/> Opening Hours </h3>
+                 <hr class="bg-primar">
+                <p>Monday  8:00 - 19:00pm </p>
+                <p>Tuesday  8:00 - 19:00pm </p>
+                <p>Wednesday  8:00 - 19:00pm </p>
+                <p>Thursday  8:00 - 19:00pm </p>
+                <p>Friday  8:00 - 19:00pm </p>
+            </div>
+             <div class="col-lg-6 mx-1">
+                <h3>Make An Appointment</h3>
+                <hr class="bg-primar">
+                <div class="row mt-1">
+                     <div class="col-lg-5 f1 ">
+                        <input type="text" class="fld mx-1" name="" id="Email" value="" placeholder=" Name " />
+                     </div>
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-5 f2">
+                        <input type="text" class="fld" name="" id="Email" value="" placeholder=" Card id " />
+                     </div>
+                     
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-5 f3 ">
+                       <input type="text" class="fld mx-1" name="" id="Email" value="" placeholder=" Email " />
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5 f4">
+                       <input type="text" class="fld" name="" id="Email" value="" placeholder=" Doctor " />
+                    </div>
+                    
+               </div>
+               <div class="row mt-3">
+                <div class="col-lg-5 f5 ">
+                   <input type="text" class="fld mx-1" name="" id="Email" value="" placeholder=" Time " />
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-5 f6">
+                   <input type="text" class="fld" name="" id="Email" value="" placeholder=" Doctor " />
+                </div>
+                
+                </div>
+                
+               <div class="mx-auto Dbook "><button type="submit" class="bg-primar mt-3 book">Book Now </button></div>
+            </div>
 
+         </div>
+
+    </div>
         <!-------------------------------About-------------------------->
-        <div class="about container" id="about">
 
-            <div class="row p-3">
-                <div class="col-md-6 pt-5 mb-3">
-                    <h2 class="text-primary ab ">About Us</h2>
-
-                    <h1 class="small"></h1>
-                    <h1 class="large"></h1>
-                    <br><br>
-
-                    <h1 class="about-title mt-2 p-3 text-sm-center" id="A1">All About Vigourich</h1>
-                    <p class="lead text-secondary font-weight-normal" id="A2">
-                        Our main long term goal is achieving complex results for your health.But in the process,we also keep focus on giving you the best customer service. We're always making our service easy and convenient to use.
-                    </p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-primary" id="A3">Read more...</a>
-                    </div>
-                </div>
-                <div class="col-md-6 m-auto">
-                    <img src="./Assets/Assets/about.jpg" alt="doctors" class="w-100">
-                </div>
-            </div>
-            <i class="fa fa-chevron-up text-light"></i>
-        </div>
         <!--------------------------------Services-------------------------------->
-        <hr>
-        <div class="ds container  ">
-            <img src="./Assets/Assets/3.png" alt="" class="w-20">
-        </div>
-        <div class="service mt-5  pb-5 mb-5" id="service">
 
-            <h2 class="text-center text-primary">Our Service</h2>
-            <h1 class="line text-center"></h1>
-            <div class="os row  container m-auto pt-5 ">
-                <div class="col-lg-3">
-                   <!-- <img src="./Assets/Assets/42100122-nurse-using-digital-blood-pressure-for-senior-patient-.jpg" alt="drugs" class="w-100">-->
-                   <img src="./signUp/Assets/preg woman.jpg" alt="drugs" class="w-100">
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-light bg-primary p-1">
-                        <h3>Vigourich</h3>
-                        <P id="s1">We equip nursing mothers with necessary information needed to cater for their nutritional needs and that of their children ( 6months-5years).</P>
-
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <img src="./signUp/Assets/fruits 1.jpg" alt="" class="w-100 m-auto">
-                </div>
-                <div class="col-lg-3">
-
-                    <div class="text-light bg-primary p-1">
-                        <p id="s2">At Vigourich, we believe that relationship building among fellow mothers is very important on one's journey to motherhood. 
-                            So, we provide a platform that brings pregnant and nursing mothers together to support one another in their journey to motherhood and pursuit of well-being for their children.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row container m-auto">
-                <div class="col-lg-3">
-                    <div class="text-light bg-primary p-1">
-                        <p id="s3">We also produce easily accessible and sustainable highly nutritious baby food available for all social classes thus improving food and nutrition security</p>
-                    </div>
-
-                </div>
-                <div class="col-lg-3">
-                    <img src="./signUp/Assets/fruit 2.jpg" alt="" class="w-100">
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="text-light bg-primary p-1">
-                        <p id="s4">To minimize one-on-one contact, we provide the best online health care service to our mothers' and babies in the most convenient way possible. 
-                            -Access to a doctor all day long.
-                            -We speak your native language. 
-                            -Your bookings with the doctors are secure.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <img src="./signUp/Assets/child 32.jpg" alt="" class="w-100">
-                </div>
-            </div>
-        </div>
         <!---------------------------------How it works---------------------------------------->
-        <div class="container" id="how-it-works ">
+        <div class="container" id="how-it-works">
             <div class="d-block">
 
-                <h2 class="text-center text-primary " >How It Works</h2>
+                <h2 class="text-center text-primary ">How It Works</h2>
                 <h1 class="line"></h1>
-                <p class="text-center text-secondary font-weight-normal lead m-auto p-4 h2">
+                <p class="text-center text-secondary font-weight-normal lead m-auto p-4">
                     It's only in three easy steps.Follow the steps at the comfort of your <br> home and your appointment is <br> scheduled.
                 </p>
             </div>
             <div class="row m-auto container container-fluid hiw">
                 <div class="col-md-4">
                     <h3>
-                        <sapn class="num text-primary">01</sapn><span class="step" id="h3">login/SignUp to Dashboard</span>
+                        <sapn class="num text-primary">01</sapn><span class="step">login/SignUp to Dashboard</span>
                     </h3>
-                    <p class="font-weight-normal text-secondary" id="h4"> SignUp into your acount
+                    <p class="font-weight-normal text-secondary">SignUp into your acount
                         <br> if you already have an account
                     </p>
                 </div>
                 <div class="col-md-4">
                     <h3>
-                        <sapn class="num text-primary">02</sapn><span class="step" id="h5">Book an appointment</span>
+                        <sapn class="num text-primary">02</sapn><span class="step">Book an appointment</span>
                     </h3>
-                    <p class="font-weight-normal text-secondary" id="h6">Pick a comfortable schedule <br> and wait for the day.
+                    <p class="font-weight-normal text-secondary">Pick a comfortable schedule <br> and wait for the day.
                     </p>
                 </div>
                 <div class="col-md-4 mb-5">
                     <h3>
-                        <sapn class="num text-primary">03</sapn><span class="step" id="h7">Appointment day arrives</span>
+                        <sapn class="num text-primary">03</sapn><span class="step">Appointment day arrives</span>
                     </h3>
-                    <p class="font-weight-normal text-secondary" id="h8">Attend appoint as scheduled <br> and you're done</p>
+                    <p class="font-weight-normal text-secondary">Attend appoint as scheduled <br> and you're done</p>
                 </div>
             </div>
         </div>
@@ -193,10 +167,10 @@
         <div class="newsletter container m-auto " id="newsletter">
             <h2 class="text-center text-uppercase">NewsLetter</h2>
             <h1 class="line"></h1>
-            <h2 class="text-center p-5 " id="n1">
+            <h2 class="text-center p-5 ">
                 Subscribe To Get Daily Health Tips
             </h2>
-            <h4 class="text-center text-secondary font-weight-normal p-1" id="n2">
+            <h4 class="text-center text-secondary font-weight-normal p-1">
                 Get updates on how to lead a healthy life
             </h4>
             <form action="" class="text-center mb-5">
@@ -240,7 +214,7 @@
         <div class="container m-auto foot">
             <div class=" d-flex justify-content-around m-auto text-light flex-wrap">
                 <div class="text">
-                    <p id="wel">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Accusamus, saepe?
                     </p>
                 </div>
@@ -255,12 +229,9 @@
                         <a href="#contact" class="col-md-6 text-light text-decoration-none">Contact</a>
                         <a href="#team" class="col-md-6 text-light text-decoration-none">Team</a>
                     </div>
-                    <div class="row ">
-                        <button class="btn btn-light text-primary mx-lg-3" id="sign-inbtn yoruba" onclick="mychan()"><a class="text-decoration-none" ></a>Yoruba</button>
-                    </div>
                 </div>
                 <div class="social">
-                    <h3 class="text-center"  >Socials</h3>
+                    <h3 class="text-center">Socials</h3>
                     <h1 class="line bg-light w-25 mb-4"></h1>
                     <div class="row text-center">
                         <a href="" class="col-md-6 text-light text-decoration-none"><i class="fa fa-facebook"></i></a>
@@ -284,7 +255,6 @@
     <script src="./jQuery.js"></script>
     <script src="./bootstrap.min.js"></script>
     <script src="app.js"></script>
-    <script src="index.js"></script>
 </body>
 
 </html>

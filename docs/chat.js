@@ -84,3 +84,28 @@ button.onclick = function () {
     $("#comm").click(function() {
         $("#comm").toggleClass( "selected" );
       });
+
+     fetch("https://nlp-translation.p.rapidapi.com/v1/translate", {
+        "method": "POST",
+        "headers": {
+            "content-type": "application/x-www-form-urlencoded",
+            "x-rapidapi-key": "5aeef22cb1mshcd7da59196079fcp10d9b3jsn033f7668a617",
+            "x-rapidapi-host": "nlp-translation.p.rapidapi.com"
+        },
+        "body": {
+            "from": "en",
+            "text": "Hello World",
+            "to": "es"
+        }
+    })
+    .then(response => {
+        console.log(response);
+    })
+
+    /*
+     
+    
+    */
+
+
+

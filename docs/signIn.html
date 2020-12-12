@@ -86,7 +86,9 @@
        <p>Password</p>
        <input type="password" class="p1" placeholder="Enter password"> 
        <p class="fg1"> <a  href="#" >Forgot?</a></p>
-       <input type="submit" value="Login" class="btn">
+
+       <div class="ba-1"><a href="./login.html" class="btn btn-primary ba p-2 my-4 w-75" id="wel">Login</a></div>
+
       </form>
       </div>
     </main>
@@ -97,10 +99,16 @@
          $('.jqs').toggleClass("show")
          $('ul li').toggleClass("hide")
        })
-    })
+    });
+    function login(){
+      document.getElementById("login").onclick = function () {
+        location.href = "https://bamtaiwo9.github.io/Bamtaiwo10.github.io/";
+    };
+    }
    </script>
        <script src="./jQuery.js"></script>
        <script src="./bootstrap.min.js"></script>
        <script src="./app.js"></script>
+       <script src="./index.js"></script>
 </body>
 </html>
